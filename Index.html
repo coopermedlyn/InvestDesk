@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestDesk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="sideMenu">
+        <nav>
+            <h2 id="logo">InvestDesk</h2>
+            <a class="menuItems"href="#"><img src="img/portfolio.svg">Portfolio</a>
+            <a class="menuItems"href="#"><img src="img/statistics.svg">Statistics</a>
+            <a class="menuItems"href="#"><img src="img/search.svg">Research</a>
+            <a class="menuItems"href="#"><img src="img/tools.svg">Tools</a>
+            <a class="menuItems"href="#"><img src="img/link.svg">Get Connected</a>
+        </nav>
+        <nav id="bottomMenu">
+            <a class="menuItemsBottom"href="#" style="margin-bottom: 80px; border-top: 1px solid #1A2330; padding-top: 30px;"><img src="img/options.svg">Settings</a>
+            <a class="menuItemsBottom"href="#"><img src="img/logout.svg">Logout</a>
+        </nav>
+    </section>
+
+
+   <header>
+       <div class="header">
+           <nav class="headericons">
+                 <a href="#"><img src="img/darkmode.svg" class="hicon"></a>
+                 <a href="#"><img src="img/bell.svg"class="hicon"></a>
+
+                 <a href="#">Profile<img src="img/profile.svg"class="hicon"></a>
+
+           </nav>
+        </div>
+   </header>
+
+
+   <section id="contentArea">
+        <div class="topCards">
+            <div class="topCard" id="addStock">
+                <a href="#"><img src="img/math-plus.svg"class="cardIcon">Add Stock</a>
+            </div>
+            <div class="topCard" id="totalPortfolio">
+                <a href="#"><img src="dollar.png"class="cardIcon">Total Portfolio Value:</a>
+            </div>
+            <div class="topCard" id="profit">
+                <a href="#"><img src="img/profit.svg"class="cardIcon">Profit:</a>
+            </div>
+            <div class="topCard" id="timePeriod">
+                <a href="#"><img src="img/time.svg"class="cardIcon">Time Period</a>
+            </div>
+        </div>
+        <div id="table">
+            <table>
+                <tr id="tableHead">
+                    <th>Ticker</th>
+                    <th>Quantity Owned</th>
+                    <th>Price Paid</th>
+                    <th>Current Price</th>
+                    <th>Holding Value</th>
+                    <th>Profit</th>
+                    <th>Est. Value</th>
+                    <th>Est. Holding Value</th>
+                </tr>
+                <tr>
+                    <td>ARG</td>
+                    <td>300</td>
+                    <td>$6.43</td>
+                    <td>$7.22</td>
+                    <td>$3 348.33</td>
+                    <td>$356.21</td>
+                    <td>$12.67</td>
+                    <td>$6 896.43</td>
+                </tr>
+            </table>
+        </div>
+   </section>
+</body>
+</html>

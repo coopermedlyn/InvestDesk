@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.772" height="28.772" viewBox="0 0 28.772 28.772">
+  <g id="menu-boxed" transform="translate(0 0)">
+    <path id="Path_799" data-name="Path 799" d="M8.614,6.982a1.6,1.6,0,0,0,0,3.207H21.322a1.6,1.6,0,0,0,0-3.207Z" transform="translate(-0.597 -0.617)" fill="#fff"/>
+    <path id="Path_800" data-name="Path 800" d="M7.016,12.6a1.6,1.6,0,0,1,1.6-1.6H21.322a1.6,1.6,0,0,1,0,3.207H8.614A1.6,1.6,0,0,1,7.016,12.6Z" transform="translate(-0.597 1.786)" fill="#fff"/>
+    <path id="Path_801" data-name="Path 801" d="M8.623,15.012a1.6,1.6,0,0,0,0,3.207H21.332a1.6,1.6,0,0,0,0-3.207Z" transform="translate(-0.591 4.189)" fill="#fff"/>
+    <path id="Path_802" data-name="Path 802" d="M3,7.8A4.8,4.8,0,0,1,7.8,3H26.977a4.8,4.8,0,0,1,4.8,4.8V26.977a4.8,4.8,0,0,1-4.8,4.8H7.8a4.8,4.8,0,0,1-4.8-4.8ZM7.8,6.2H26.977a1.6,1.6,0,0,1,1.6,1.6V26.977a1.6,1.6,0,0,1-1.6,1.6H7.8a1.6,1.6,0,0,1-1.6-1.6V7.8A1.6,1.6,0,0,1,7.8,6.2Z" transform="translate(-3 -3)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
